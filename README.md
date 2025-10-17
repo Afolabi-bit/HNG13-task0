@@ -7,7 +7,7 @@ It displays my information including a profile image, bio, hobbies, dislikes, an
 
 ## 🚀 Live Demo
 
-🔗 **Live URL:** [https://your-live-link.netlify.app](#)  
+🔗 **Live URL:** [https://hng-13-task0.vercel.app/](#)  
 💻 **GitHub Repo:** [https://github.com/yourusername/hng13-task0-profile-card](#)
 
 ---
@@ -25,11 +25,12 @@ It displays my information including a profile image, bio, hobbies, dislikes, an
 
 ## 📁 Project Structure
 
-````bash
+```bash
 ├── index.html        # Main HTML file
 ├── style.css         # Styling and layout
 ├── script.js         # JavaScript for live time updates
 └── README.md         # Documentation
+```
 
 ## 🛠️ Technologies Used
 
@@ -46,4 +47,4 @@ To run this project locally:
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/yourusername/hng13-task0-profile-card.git
-````
+   ```
