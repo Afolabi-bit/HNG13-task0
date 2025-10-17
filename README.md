@@ -46,5 +46,5 @@ To run this project locally:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/Afolabi-bit/hng13-task0-profile-card.git
+   git clone https://github.com/Afolabi-bit/hng13-task0.git
    ```
