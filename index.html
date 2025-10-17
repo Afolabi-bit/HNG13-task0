@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card - HNG13 Task 0</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./script.js" defer></script>
+    <link
+      rel="shortcut icon"
+      href="https://res.cloudinary.com/dkpoealta/image/upload/v1760652577/profile_Img_v1gz6h.jpg"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <!-- PROFILE CARD ROOT -->
+    <article data-testid="test-profile-card">
+      <!-- AVATAR -->
+      <figure>
+        <img
+          src="https://res.cloudinary.com/dkpoealta/image/upload/v1760652577/profile_Img_v1gz6h.jpg"
+          alt="User avatar"
+          data-testid="test-user-avatar"
+        />
+      </figure>
+
+      <div class="profile-info">
+        <!-- NAME -->
+        <header>
+          <h2 data-testid="test-user-name">Afolabi Joseph</h2>
+        </header>
+
+        <!-- BIO -->
+        <p class="bio" data-testid="test-user-bio">
+          I’m a student, writer, and aspiring tech bro passionate about
+          technology and creativity. Always learning something new!
+        </p>
+
+        <!-- CURRENT TIME -->
+        <p class="time">
+          Current Time (ms):
+          <span data-testid="test-user-time" id="time"></span>
+        </p>
+
+        <!-- SOCIAL LINKS -->
+        <nav aria-label="Social links" data-testid="test-user-social-links">
+          <ul>
+            <li>
+              <a
+                href="https://x.com/feni9ma"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="test-user-social-twitter"
+                >Twitter</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/Afolabi-bit"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="test-user-social-github"
+                >GitHub</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/afolabi-joseph-a73a851a1/"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="test-user-social-linkedin"
+                >LinkedIn</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <!-- HOBBIES -->
+        <section data-testid="test-user-hobbies">
+          <h3>Hobbies</h3>
+          <ul>
+            <li>Music</li>
+            <li>Studying for an exam</li>
+            <li>Chess</li>
+          </ul>
+        </section>
+
+        <!-- DISLIKES -->
+        <section data-testid="test-user-dislikes">
+          <h3>Dislikes</h3>
+          <ul>
+            <li>Procrastination</li>
+            <li>Noise</li>
+          </ul>
+        </section>
+      </div>
+    </article>
+  </body>
+</html>
