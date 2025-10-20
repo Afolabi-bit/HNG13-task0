@@ -86,7 +86,7 @@ nav a {
   font-size: 12px;
 }
 
-nav a:focus {
+nav ul a:focus {
   outline: 2px solid #0077ff;
   outline-offset: 2px;
 }

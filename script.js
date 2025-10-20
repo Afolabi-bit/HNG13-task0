@@ -65,6 +65,9 @@ document.addEventListener("DOMContentLoaded", () => {
     if (valid) {
       success.hidden = false;
       form.reset();
+      document
+        .querySelectorAll(".error")
+        .forEach((el) => (el.textContent = ""));
     } else {
       success.hidden = true;
     }

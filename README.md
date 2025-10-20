@@ -8,7 +8,7 @@ It displays my information including a profile image, bio, hobbies, dislikes, an
 ## 🚀 Live Demo
 
 🔗 **Live URL:** [https://hng-13-task0.vercel.app/](#)  
-💻 **GitHub Repo:** [https://github.com/yourusername/hng13-task0-profile-card](#)
+💻 **GitHub Repo:** [https://github.com/Afilabi-bit/hng13-task0-profile-card](#)
 
 ---
 
@@ -27,6 +27,8 @@ It displays my information including a profile image, bio, hobbies, dislikes, an
 
 ```bash
 ├── index.html        # Main HTML file
+├── about.html        #  HTML file
+├── contact-us.html        #  HTML file
 ├── style.css         # Styling and layout
 ├── script.js         # JavaScript for live time updates
 └── README.md         # Documentation

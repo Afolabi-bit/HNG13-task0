@@ -23,20 +23,30 @@ nav a {
   color: white;
   padding: 5px 10px;
   background-color: black;
+  font-size: 12px;
   border-radius: 5px;
 }
 
 main {
-  margin-top: 100px;
-}
-
-form {
   max-width: 500px;
   margin: auto;
   background-color: white;
-  padding: 1.5rem;
-  border-radius: 10px;
+  margin-top: 70px;
   box-shadow: 2px 6px 21px rgba(0, 0, 0, 0.1);
+  margin-bottom: 50px;
+  padding: 1rem 1.5rem 1.5rem;
+  border-radius: 10px;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+form {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -104,6 +114,8 @@ form button:active {
 }
 form p {
   margin: 0;
+  color: green;
+  font-weight: 600;
 }
 
 @media (max-width: 600px) {
