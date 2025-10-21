@@ -1,4 +1,4 @@
-# 🌟 Profile Card — HNG13 Task 0
+# 🌟 Profile Card — HNG13 Task 0 And 1
 
 A simple, responsive **Profile Card** built with **HTML, CSS, and JavaScript** as part of the **HNG13 Frontend Task 0**.  
 It displays my information including a profile image, bio, hobbies, dislikes, and dynamically updates the current time in milliseconds.
